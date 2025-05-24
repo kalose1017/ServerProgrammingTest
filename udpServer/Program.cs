@@ -1,6 +1,8 @@
-﻿using System.Net.Sockets;
+﻿using System;
 using System.Net;
+using System.Net.Sockets;
 using System.Text;
+using System.Collections.Generic;
 
 namespace udpServer
 {
@@ -12,19 +14,14 @@ namespace udpServer
         static void Main(string[] args)
         {
             int retval;
-
             Socket sock = null;
+
             try
             {
-                // 소켓 생성
-                sock = new Socket(AddressFamily.InterNetwork,
-                    SocketType.Dgram, ProtocolType.Udp);
-                //sock = new Socket(AddressFamily.InterNetworkV6,
-                //    SocketType.Dgram, ProtocolType.Udp);
-
-                // Bind()
+                Log("서버 소켓 생성");
+                sock = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
                 sock.Bind(new IPEndPoint(IPAddress.Any, SERVERPORT));
-                //sock.Bind(new IPEndPoint(IPAddress.IPv6Any, SERVERPORT));
+                Log($"서버 바인딩 완료 (포트 {SERVERPORT})");
             }
             catch (Exception e)
             {
@@ -32,27 +29,33 @@ namespace udpServer
                 Environment.Exit(1);
             }
 
-            // 데이터 통신에 사용할 변수
             byte[] buf = new byte[BUFSIZE];
+            HashSet<string> knownClients = new HashSet<string>();
 
             while (true)
             {
                 try
                 {
-                    // 데이터 받기
                     IPEndPoint anyaddr = new IPEndPoint(IPAddress.Any, 0);
                     EndPoint peeraddr = (EndPoint)anyaddr;
-                    retval = sock.ReceiveFrom(buf, BUFSIZE,
-                        SocketFlags.None, ref peeraddr);
 
-                    // 받은 데이터 출력
-                    Console.WriteLine("[UDP/{0}:{1}] {2}",
-                        ((IPEndPoint)peeraddr).Address,
-                        ((IPEndPoint)peeraddr).Port,
-                        Encoding.Default.GetString(buf, 0, retval));
+                    retval = sock.ReceiveFrom(buf, BUFSIZE, SocketFlags.None, ref peeraddr);
+                    string message = Encoding.Default.GetString(buf, 0, retval);
+                    string clientKey = peeraddr.ToString();
 
-                    // 데이터 보내기
+                    Log($"수신됨: [{clientKey}] → {message}");
+
+                    if (!knownClients.Contains(clientKey))
+                    {
+                        knownClients.Add(clientKey);
+                        string welcome = "하와와~ 이지호의 UDP서버에 오신 것을 환영티비!";
+                        byte[] welcomeBytes = Encoding.Default.GetBytes(welcome);
+                        sock.SendTo(welcomeBytes, welcomeBytes.Length, SocketFlags.None, peeraddr);
+                        Log($"Welcome 메시지 전송 완료 → {clientKey}");
+                    }
+
                     sock.SendTo(buf, 0, retval, SocketFlags.None, peeraddr);
+                    Log($"에코 전송 완료 → {clientKey}");
                 }
                 catch (Exception e)
                 {
@@ -61,8 +64,12 @@ namespace udpServer
                 }
             }
 
-            // 소켓 닫기
             sock.Close();
+        }
+
+        static void Log(string msg)
+        {
+            Console.WriteLine($"{DateTime.Now:yyyy-MM-dd HH:mm} : {msg}");
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.Net.Sockets;
+﻿using System;
+using System.Net.Sockets;
 using System.Text;
 
 namespace tcpClient
@@ -6,100 +7,82 @@ namespace tcpClient
     internal class Program
     {
         static string SERVERIP = "127.0.0.1";
-        // static string SERVERIP = "::1";
         const int SERVERPORT = 9000;
         const int BUFSIZE = 1024;
+
         static void Main(string[] args)
         {
             int retval;
 
-            // 명령행 인수가 있으면 IP 주소로 사용
             if (args.Length > 0) SERVERIP = args[0];
 
             Socket sock = null;
             try
             {
-                // 소켓 생성
-                sock = new Socket(AddressFamily.InterNetwork,
-                    SocketType.Stream, ProtocolType.Tcp);
-
-                // 소켓 생성
-                //sock = new Socket(AddressFamily.InterNetworkV6,
-                //SocketType.Stream, ProtocolType.Tcp);
-
-                // Connect()
+                Log("Client 소켓 생성");
+                sock = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                Log($"서버 ( {SERVERIP} ) 접속 시도");
                 sock.Connect(SERVERIP, SERVERPORT);
+                Log("서버 접속 완료");
+
+                byte[] buf = new byte[BUFSIZE];
+                retval = sock.Receive(buf);
+                string welcome = Encoding.Default.GetString(buf, 0, retval);
+                Log($"서버로부터 받은 메시지: {welcome}");
+
+                while (true)
+                {
+                    Console.Write("\n[보낼 데이터] ");
+                    string data = Console.ReadLine();
+
+                    if (data.Equals("QUIT", StringComparison.OrdinalIgnoreCase) ||
+                        data.Equals("EXIT", StringComparison.OrdinalIgnoreCase))
+                    {
+                        Log("종료 명령어 입력됨. 소켓 종료");
+                        break;
+                    }
+
+                    byte[] senddata = Encoding.Default.GetBytes(data);
+                    int size = senddata.Length;
+                    if (size > BUFSIZE) size = BUFSIZE;
+
+                    retval = sock.Send(senddata, 0, size, SocketFlags.None);
+                    Log($"데이터 입력 완료");
+                    Log($"데이터 전송 완료: {retval}바이트");
+
+                    retval = ReceiveN(sock, buf, retval, SocketFlags.None);
+                    if (retval == 0) break;
+
+                    //Log($"데이터 수신 완료: {retval}바이트");
+                    //Console.WriteLine("[받은 데이터] " + Encoding.Default.GetString(buf, 0, retval));
+                }
+
+                sock.Close();
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
                 Environment.Exit(1);
             }
-
-            // 데이터 통신에 사용할 변수
-            byte[] buf = new byte[BUFSIZE];
-            Console.WriteLine("TCP통신");
-            // 서버와 데이터 통신
-            while (true)
-            {
-                // 데이터 입력
-                Console.Write("\n[보낼 데이터] ");
-                string data = Console.ReadLine();
-                if (data.Length == 0) break;
-
-                try
-                {
-                    // 데이터 보내기 (최대 길이를 BUFSIZE로 제한)
-                    byte[] senddata = Encoding.Default.GetBytes(data);
-                    int size = senddata.Length;
-                    if (size > BUFSIZE) size = BUFSIZE;
-                    retval = sock.Send(senddata, 0, size, SocketFlags.None);
-                    Console.WriteLine(
-                        "[TCP 클라이언트] {0}바이트를 보냈습니다.", retval);
-
-                    // 데이터 받기
-                    retval = ReceiveN(sock, buf, retval, SocketFlags.None);
-                    if (retval == 0) break;
-
-                    // 받은 데이터 출력
-                    Console.WriteLine(
-                        "[TCP 클라이언트] {0}바이트를 받았습니다.", retval);
-                    Console.WriteLine("[받은 데이터] {0}",
-                        Encoding.Default.GetString(buf, 0, retval));
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine(e.Message);
-                    break;
-                }
-            }
-
-            // 소켓 닫기
-            sock.Close();
         }
 
         static int ReceiveN(Socket sock, byte[] buf, int len, SocketFlags flags)
         {
-            int received;
-            int offset = 0;
-            int left = len;
+            int received, offset = 0, left = len;
 
             while (left > 0)
             {
-                try
-                {
-                    received = sock.Receive(buf, offset, left, flags);
-                    if (received == 0) break;
-                    left -= received;
-                    offset += received;
-                }
-                catch (Exception e)
-                {
-                    throw e;
-                }
+                received = sock.Receive(buf, offset, left, flags);
+                if (received == 0) break;
+                left -= received;
+                offset += received;
             }
-
             return len - left;
+        }
+
+        static void Log(string msg)
+        {
+            Console.WriteLine($"{DateTime.Now:yyyy-MM-dd HH:mm} : {msg}");
         }
     }
 }

@@ -1,5 +1,6 @@
-﻿using System.Net.Sockets;
+﻿using System;
 using System.Net;
+using System.Net.Sockets;
 using System.Text;
 
 namespace udpClient
@@ -7,7 +8,6 @@ namespace udpClient
     internal class Program
     {
         static string SERVERIP = "127.0.0.1";
-        //static string SERVERIP = "::1";
         const int SERVERPORT = 9000;
         const int BUFSIZE = 1024;
 
@@ -15,17 +15,13 @@ namespace udpClient
         {
             int retval;
 
-            // 명령행 인수가 있으면 IP 주소로 사용
             if (args.Length > 0) SERVERIP = args[0];
 
             Socket sock = null;
             try
             {
-                // 소켓 생성
-                sock = new Socket(AddressFamily.InterNetwork,
-                    SocketType.Dgram, ProtocolType.Udp);
-                //sock = new Socket(AddressFamily.InterNetworkV6,
-                //    SocketType.Dgram, ProtocolType.Udp);
+                Log("Client 소켓 생성");
+                sock = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
             }
             catch (Exception e)
             {
@@ -33,51 +29,35 @@ namespace udpClient
                 Environment.Exit(1);
             }
 
-            // 소켓 주소 객체 초기화
-            IPEndPoint serveraddr = new IPEndPoint(
-                IPAddress.Parse(SERVERIP), SERVERPORT);
-
-            // 데이터 통신에 사용할 변수
+            IPEndPoint serveraddr = new IPEndPoint(IPAddress.Parse(SERVERIP), SERVERPORT);
             byte[] buf = new byte[BUFSIZE];
 
-            Console.WriteLine("UDP통신");
-            // 서버와 데이터 통신
+            Console.WriteLine("UDP통신 시작");
             while (true)
             {
-                // 데이터 입력
                 Console.Write("\n[보낼 데이터] ");
                 string data = Console.ReadLine();
-                if (data.Length == 0) break;
+                if (data.Equals("QUIT", StringComparison.OrdinalIgnoreCase) ||
+                    data.Equals("EXIT", StringComparison.OrdinalIgnoreCase))
+                {
+                    Log("종료 명령어 입력됨. 소켓 종료");
+                    break;
+                }
 
                 try
                 {
-                    // 데이터 보내기 (최대 길이를 BUFSIZE로 제한)
                     byte[] senddata = Encoding.Default.GetBytes(data);
                     int size = senddata.Length;
                     if (size > BUFSIZE) size = BUFSIZE;
-                    retval = sock.SendTo(senddata, 0, size,
-                        SocketFlags.None, serveraddr);
-                    Console.WriteLine(
-                        "[UDP 클라이언트] {0}바이트를 보냈습니다.", retval);
 
-                    // 데이터 받기
-                    IPEndPoint anyaddr = new IPEndPoint(IPAddress.Any, 0);
-                    EndPoint peeraddr = (EndPoint)anyaddr;
-                    retval = sock.ReceiveFrom(buf, BUFSIZE,
-                        SocketFlags.None, ref peeraddr);
+                    retval = sock.SendTo(senddata, 0, size, SocketFlags.None, serveraddr);
+                    Log($"데이터 전송 완료 ({retval}바이트)");
 
-                    // 송신자의 주소 체크
-                    if (!((IPEndPoint)peeraddr).Equals(serveraddr))
-                    {
-                        Console.WriteLine("[오류] 잘못된 데이터입니다!");
-                        break;
-                    }
+                    EndPoint peeraddr = new IPEndPoint(IPAddress.Any, 0);
+                    retval = sock.ReceiveFrom(buf, BUFSIZE, SocketFlags.None, ref peeraddr);
 
-                    // 받은 데이터 출력
-                    Console.WriteLine(
-                        "[UDP 클라이언트] {0}바이트를 받았습니다.", retval);
-                    Console.WriteLine("[받은 데이터] {0}",
-                        Encoding.Default.GetString(buf, 0, retval));
+                    string received = Encoding.Default.GetString(buf, 0, retval);
+                    Log($"수신 완료 ({retval}바이트) → {received}");
                 }
                 catch (Exception e)
                 {
@@ -86,8 +66,12 @@ namespace udpClient
                 }
             }
 
-            // 소켓 닫기
             sock.Close();
+        }
+
+        static void Log(string msg)
+        {
+            Console.WriteLine($"{DateTime.Now:yyyy-MM-dd HH:mm} : {msg}");
         }
     }
 }

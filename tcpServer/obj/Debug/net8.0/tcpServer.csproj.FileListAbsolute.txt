@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\ServerProgrammingTest\tcpServer\bin\Debug\net8.0\tcpServer.exe
+C:\Users\user\Desktop\ServerProgrammingTest\tcpServer\bin\Debug\net8.0\tcpServer.deps.json
+C:\Users\user\Desktop\ServerProgrammingTest\tcpServer\bin\Debug\net8.0\tcpServer.runtimeconfig.json
+C:\Users\user\Desktop\ServerProgrammingTest\tcpServer\bin\Debug\net8.0\tcpServer.dll
+C:\Users\user\Desktop\ServerProgrammingTest\tcpServer\bin\Debug\net8.0\tcpServer.pdb
+C:\Users\user\Desktop\ServerProgrammingTest\tcpServer\obj\Debug\net8.0\tcpServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ServerProgrammingTest\tcpServer\obj\Debug\net8.0\tcpServer.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ServerProgrammingTest\tcpServer\obj\Debug\net8.0\tcpServer.AssemblyInfo.cs
+C:\Users\user\Desktop\ServerProgrammingTest\tcpServer\obj\Debug\net8.0\tcpServer.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ServerProgrammingTest\tcpServer\obj\Debug\net8.0\tcpServer.sourcelink.json
+C:\Users\user\Desktop\ServerProgrammingTest\tcpServer\obj\Debug\net8.0\tcpServer.dll
+C:\Users\user\Desktop\ServerProgrammingTest\tcpServer\obj\Debug\net8.0\refint\tcpServer.dll
+C:\Users\user\Desktop\ServerProgrammingTest\tcpServer\obj\Debug\net8.0\tcpServer.pdb
+C:\Users\user\Desktop\ServerProgrammingTest\tcpServer\obj\Debug\net8.0\tcpServer.genruntimeconfig.cache
+C:\Users\user\Desktop\ServerProgrammingTest\tcpServer\obj\Debug\net8.0\ref\tcpServer.dll
