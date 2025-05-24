@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\ServerProgrammingTest\tcpClient\bin\Debug\net8.0\tcpClient.exe
+C:\Users\user\Desktop\ServerProgrammingTest\tcpClient\bin\Debug\net8.0\tcpClient.deps.json
+C:\Users\user\Desktop\ServerProgrammingTest\tcpClient\bin\Debug\net8.0\tcpClient.runtimeconfig.json
+C:\Users\user\Desktop\ServerProgrammingTest\tcpClient\bin\Debug\net8.0\tcpClient.dll
+C:\Users\user\Desktop\ServerProgrammingTest\tcpClient\bin\Debug\net8.0\tcpClient.pdb
+C:\Users\user\Desktop\ServerProgrammingTest\tcpClient\obj\Debug\net8.0\tcpClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ServerProgrammingTest\tcpClient\obj\Debug\net8.0\tcpClient.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ServerProgrammingTest\tcpClient\obj\Debug\net8.0\tcpClient.AssemblyInfo.cs
+C:\Users\user\Desktop\ServerProgrammingTest\tcpClient\obj\Debug\net8.0\tcpClient.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ServerProgrammingTest\tcpClient\obj\Debug\net8.0\tcpClient.sourcelink.json
+C:\Users\user\Desktop\ServerProgrammingTest\tcpClient\obj\Debug\net8.0\tcpClient.dll
+C:\Users\user\Desktop\ServerProgrammingTest\tcpClient\obj\Debug\net8.0\refint\tcpClient.dll
+C:\Users\user\Desktop\ServerProgrammingTest\tcpClient\obj\Debug\net8.0\tcpClient.pdb
+C:\Users\user\Desktop\ServerProgrammingTest\tcpClient\obj\Debug\net8.0\tcpClient.genruntimeconfig.cache
+C:\Users\user\Desktop\ServerProgrammingTest\tcpClient\obj\Debug\net8.0\ref\tcpClient.dll

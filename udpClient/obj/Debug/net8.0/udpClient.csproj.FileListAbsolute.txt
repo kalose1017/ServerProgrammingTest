@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\ServerProgrammingTest\udpClient\bin\Debug\net8.0\udpClient.exe
+C:\Users\user\Desktop\ServerProgrammingTest\udpClient\bin\Debug\net8.0\udpClient.deps.json
+C:\Users\user\Desktop\ServerProgrammingTest\udpClient\bin\Debug\net8.0\udpClient.runtimeconfig.json
+C:\Users\user\Desktop\ServerProgrammingTest\udpClient\bin\Debug\net8.0\udpClient.dll
+C:\Users\user\Desktop\ServerProgrammingTest\udpClient\bin\Debug\net8.0\udpClient.pdb
+C:\Users\user\Desktop\ServerProgrammingTest\udpClient\obj\Debug\net8.0\udpClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ServerProgrammingTest\udpClient\obj\Debug\net8.0\udpClient.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ServerProgrammingTest\udpClient\obj\Debug\net8.0\udpClient.AssemblyInfo.cs
+C:\Users\user\Desktop\ServerProgrammingTest\udpClient\obj\Debug\net8.0\udpClient.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ServerProgrammingTest\udpClient\obj\Debug\net8.0\udpClient.sourcelink.json
+C:\Users\user\Desktop\ServerProgrammingTest\udpClient\obj\Debug\net8.0\udpClient.dll
+C:\Users\user\Desktop\ServerProgrammingTest\udpClient\obj\Debug\net8.0\refint\udpClient.dll
+C:\Users\user\Desktop\ServerProgrammingTest\udpClient\obj\Debug\net8.0\udpClient.pdb
+C:\Users\user\Desktop\ServerProgrammingTest\udpClient\obj\Debug\net8.0\udpClient.genruntimeconfig.cache
+C:\Users\user\Desktop\ServerProgrammingTest\udpClient\obj\Debug\net8.0\ref\udpClient.dll

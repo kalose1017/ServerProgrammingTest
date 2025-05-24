@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\ServerProgrammingTest\SerPro10Weeks\bin\Debug\net8.0\SerPro10Weeks.exe
+C:\Users\user\Desktop\ServerProgrammingTest\SerPro10Weeks\bin\Debug\net8.0\SerPro10Weeks.deps.json
+C:\Users\user\Desktop\ServerProgrammingTest\SerPro10Weeks\bin\Debug\net8.0\SerPro10Weeks.runtimeconfig.json
+C:\Users\user\Desktop\ServerProgrammingTest\SerPro10Weeks\bin\Debug\net8.0\SerPro10Weeks.dll
+C:\Users\user\Desktop\ServerProgrammingTest\SerPro10Weeks\bin\Debug\net8.0\SerPro10Weeks.pdb
+C:\Users\user\Desktop\ServerProgrammingTest\SerPro10Weeks\obj\Debug\net8.0\SerPro10Weeks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ServerProgrammingTest\SerPro10Weeks\obj\Debug\net8.0\SerPro10Weeks.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ServerProgrammingTest\SerPro10Weeks\obj\Debug\net8.0\SerPro10Weeks.AssemblyInfo.cs
+C:\Users\user\Desktop\ServerProgrammingTest\SerPro10Weeks\obj\Debug\net8.0\SerPro10Weeks.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ServerProgrammingTest\SerPro10Weeks\obj\Debug\net8.0\SerPro10Weeks.sourcelink.json
+C:\Users\user\Desktop\ServerProgrammingTest\SerPro10Weeks\obj\Debug\net8.0\SerPro10Weeks.dll
+C:\Users\user\Desktop\ServerProgrammingTest\SerPro10Weeks\obj\Debug\net8.0\refint\SerPro10Weeks.dll
+C:\Users\user\Desktop\ServerProgrammingTest\SerPro10Weeks\obj\Debug\net8.0\SerPro10Weeks.pdb
+C:\Users\user\Desktop\ServerProgrammingTest\SerPro10Weeks\obj\Debug\net8.0\SerPro10Weeks.genruntimeconfig.cache
+C:\Users\user\Desktop\ServerProgrammingTest\SerPro10Weeks\obj\Debug\net8.0\ref\SerPro10Weeks.dll
