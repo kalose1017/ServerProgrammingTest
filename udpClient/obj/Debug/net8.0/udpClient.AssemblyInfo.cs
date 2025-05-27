@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("udpClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42b125a8d2665ccbf36a2eba4435fbda4cc31503")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3869473cd4d24bee3cd6c11ca0a7383aa55fc357")]
 [assembly: System.Reflection.AssemblyProductAttribute("udpClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("udpClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

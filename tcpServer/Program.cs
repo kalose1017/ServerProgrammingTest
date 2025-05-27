@@ -7,8 +7,8 @@ namespace tcpServer
 {
     internal class Program
     {
-        const int SERVERPORT = 9000;
-        const int BUFSIZE = 1024;
+        const int SERVERPORT = 19000;
+        const int BUFSIZE = 2048;
 
         static void Main(string[] args)
         {
@@ -19,6 +19,7 @@ namespace tcpServer
             {
                 Log("서버 소켓 생성");
                 listen_sock = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                listen_sock.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReceiveBuffer, 100);
                 listen_sock.Bind(new IPEndPoint(IPAddress.Any, SERVERPORT));
                 listen_sock.Listen(2);
                 Log("서버 대기 시작");

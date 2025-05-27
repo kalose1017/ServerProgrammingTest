@@ -1,0 +1,15 @@
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Naming_resolution\bin\Debug\net8.0\Naming_resolution.exe
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Naming_resolution\bin\Debug\net8.0\Naming_resolution.deps.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Naming_resolution\bin\Debug\net8.0\Naming_resolution.runtimeconfig.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Naming_resolution\bin\Debug\net8.0\Naming_resolution.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Naming_resolution\bin\Debug\net8.0\Naming_resolution.pdb
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Naming_resolution\obj\Debug\net8.0\Naming_resolution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Naming_resolution\obj\Debug\net8.0\Naming_resolution.AssemblyInfoInputs.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Naming_resolution\obj\Debug\net8.0\Naming_resolution.AssemblyInfo.cs
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Naming_resolution\obj\Debug\net8.0\Naming_resolution.csproj.CoreCompileInputs.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Naming_resolution\obj\Debug\net8.0\Naming_resolution.sourcelink.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Naming_resolution\obj\Debug\net8.0\Naming_resolution.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Naming_resolution\obj\Debug\net8.0\refint\Naming_resolution.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Naming_resolution\obj\Debug\net8.0\Naming_resolution.pdb
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Naming_resolution\obj\Debug\net8.0\Naming_resolution.genruntimeconfig.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Naming_resolution\obj\Debug\net8.0\ref\Naming_resolution.dll
