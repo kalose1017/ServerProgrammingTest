@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Naming_resolution")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3869473cd4d24bee3cd6c11ca0a7383aa55fc357")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cf314fe1476f00b8cb91bb1e46530d8b5b15280")]
 [assembly: System.Reflection.AssemblyProductAttribute("Naming_resolution")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Naming_resolution")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

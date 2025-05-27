@@ -15,6 +15,17 @@ namespace Naming_resolution
             GetIPAddress(TEST_NAME, ref addr);
 
             Console.WriteLine($@"Resolved Domain -> IPaddress : {addr}");
+            string name = null;
+            GetDomainName(addr, out name);
+            Console.WriteLine($@"Resolved Domain -> IPaddress : {name}");
+        }
+
+        private static void GetDomainName(IPAddress addr, out string name)
+        {
+            IPHostEntry hostent = null;
+            hostent = Dns.GetHostEntry(addr);
+            name = hostent.HostName;
+            return;
         }
 
         private static void GetIPAddress(string name, ref IPAddress addr)
