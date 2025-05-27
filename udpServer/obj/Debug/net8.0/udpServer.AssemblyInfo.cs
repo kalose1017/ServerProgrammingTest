@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("udpServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c339d6f7df55a69bccbb6ee33d4864b50056440c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42b125a8d2665ccbf36a2eba4435fbda4cc31503")]
 [assembly: System.Reflection.AssemblyProductAttribute("udpServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("udpServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

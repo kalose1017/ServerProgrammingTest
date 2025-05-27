@@ -1,0 +1,15 @@
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\msdnExample\bin\Debug\net8.0\msdnExample.exe
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\msdnExample\bin\Debug\net8.0\msdnExample.deps.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\msdnExample\bin\Debug\net8.0\msdnExample.runtimeconfig.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\msdnExample\bin\Debug\net8.0\msdnExample.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\msdnExample\bin\Debug\net8.0\msdnExample.pdb
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\msdnExample\obj\Debug\net8.0\msdnExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\msdnExample\obj\Debug\net8.0\msdnExample.AssemblyInfoInputs.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\msdnExample\obj\Debug\net8.0\msdnExample.AssemblyInfo.cs
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\msdnExample\obj\Debug\net8.0\msdnExample.csproj.CoreCompileInputs.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\msdnExample\obj\Debug\net8.0\msdnExample.sourcelink.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\msdnExample\obj\Debug\net8.0\msdnExample.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\msdnExample\obj\Debug\net8.0\refint\msdnExample.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\msdnExample\obj\Debug\net8.0\msdnExample.pdb
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\msdnExample\obj\Debug\net8.0\msdnExample.genruntimeconfig.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\msdnExample\obj\Debug\net8.0\ref\msdnExample.dll
