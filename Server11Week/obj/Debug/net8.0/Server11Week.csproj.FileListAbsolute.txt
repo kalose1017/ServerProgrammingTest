@@ -1,0 +1,15 @@
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Server11Week\bin\Debug\net8.0\Server11Week.exe
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Server11Week\bin\Debug\net8.0\Server11Week.deps.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Server11Week\bin\Debug\net8.0\Server11Week.runtimeconfig.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Server11Week\bin\Debug\net8.0\Server11Week.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Server11Week\bin\Debug\net8.0\Server11Week.pdb
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Server11Week\obj\Debug\net8.0\Server11Week.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Server11Week\obj\Debug\net8.0\Server11Week.AssemblyInfoInputs.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Server11Week\obj\Debug\net8.0\Server11Week.AssemblyInfo.cs
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Server11Week\obj\Debug\net8.0\Server11Week.csproj.CoreCompileInputs.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Server11Week\obj\Debug\net8.0\Server11Week.sourcelink.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Server11Week\obj\Debug\net8.0\Server11Week.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Server11Week\obj\Debug\net8.0\refint\Server11Week.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Server11Week\obj\Debug\net8.0\Server11Week.pdb
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Server11Week\obj\Debug\net8.0\Server11Week.genruntimeconfig.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\Server11Week\obj\Debug\net8.0\ref\Server11Week.dll

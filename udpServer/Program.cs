@@ -27,7 +27,6 @@ namespace udpServer
                 while (true)
                 {
                     Console.WriteLine("(gofile이라고 입력하면 로그를 파일로 저장합니다)");
-                    Console.Write("입력: ");
                     string input = Console.ReadLine();
                     if (input.Equals("gofile", StringComparison.OrdinalIgnoreCase))
                     {
@@ -43,7 +42,7 @@ namespace udpServer
                             File.WriteAllLines(filePath, logList);
                         }
 
-                        Console.WriteLine("로그를 udp_server_log.txt로 저장 완료");
+                        Console.WriteLine("server.txt로 저장 완료");
                     }
                 }
             })
