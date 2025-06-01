@@ -1,14 +1,19 @@
 ﻿using System;
 using System.Net.Sockets;
 using System.Text;
+using System.Collections.Generic;
+using System.IO;
 
 namespace tcpClient
 {
     internal class Program
     {
+        //tcp 클라이언트 경로 미지정 버전
         static string SERVERIP = "127.0.0.1";
-        const int SERVERPORT = 9000;
+        const int SERVERPORT = 19000;
         const int BUFSIZE = 1024;
+
+        static List<string> logList = new List<string>();
 
         static void Main(string[] args)
         {
@@ -32,6 +37,7 @@ namespace tcpClient
 
                 while (true)
                 {
+                    Console.WriteLine("(gofile이라고 입력하면 txt파일에 통신내역을 저장합니다.)");
                     Console.Write("\n[보낼 데이터] ");
                     string data = Console.ReadLine();
 
@@ -42,19 +48,36 @@ namespace tcpClient
                         break;
                     }
 
+                    if (data.Equals("gofile", StringComparison.OrdinalIgnoreCase))
+                    {
+                        string filePath = "client.txt";
+                        string directory = Path.GetDirectoryName(filePath);
+
+                        if (!string.IsNullOrEmpty(directory) && !Directory.Exists(directory))
+                        {
+                            Log($"[오류] 경로가 존재하지 않습니다: {directory}");
+                        }
+                        else
+                        {
+                            using (StreamWriter sw = new StreamWriter(filePath))
+                            {
+                                foreach (string line in logList)
+                                    sw.WriteLine(line);
+                            }
+                            Log("콘솔 출력 로그를 client.txt에 저장 완료");
+                        }
+                        continue;
+                    }
+
                     byte[] senddata = Encoding.Default.GetBytes(data);
                     int size = senddata.Length;
                     if (size > BUFSIZE) size = BUFSIZE;
 
                     retval = sock.Send(senddata, 0, size, SocketFlags.None);
-                    Log($"데이터 입력 완료");
                     Log($"데이터 전송 완료: {retval}바이트");
 
                     retval = ReceiveN(sock, buf, retval, SocketFlags.None);
                     if (retval == 0) break;
-
-                    //Log($"데이터 수신 완료: {retval}바이트");
-                    //Console.WriteLine("[받은 데이터] " + Encoding.Default.GetString(buf, 0, retval));
                 }
 
                 sock.Close();
@@ -82,7 +105,9 @@ namespace tcpClient
 
         static void Log(string msg)
         {
-            Console.WriteLine($"{DateTime.Now:yyyy-MM-dd HH:mm} : {msg}");
+            string logMsg = $"{DateTime.Now:yyyy-MM-dd HH:mm} : {msg}";
+            Console.WriteLine(logMsg);
+            logList.Add(logMsg);
         }
     }
 }

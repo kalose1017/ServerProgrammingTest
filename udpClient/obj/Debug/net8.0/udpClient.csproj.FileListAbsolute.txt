@@ -13,3 +13,18 @@ C:\Users\user\Desktop\ServerProgrammingTest\udpClient\obj\Debug\net8.0\refint\ud
 C:\Users\user\Desktop\ServerProgrammingTest\udpClient\obj\Debug\net8.0\udpClient.pdb
 C:\Users\user\Desktop\ServerProgrammingTest\udpClient\obj\Debug\net8.0\udpClient.genruntimeconfig.cache
 C:\Users\user\Desktop\ServerProgrammingTest\udpClient\obj\Debug\net8.0\ref\udpClient.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\udpClient\bin\Debug\net8.0\udpClient.exe
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\udpClient\bin\Debug\net8.0\udpClient.deps.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\udpClient\bin\Debug\net8.0\udpClient.runtimeconfig.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\udpClient\bin\Debug\net8.0\udpClient.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\udpClient\bin\Debug\net8.0\udpClient.pdb
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\udpClient\obj\Debug\net8.0\udpClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\udpClient\obj\Debug\net8.0\udpClient.AssemblyInfoInputs.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\udpClient\obj\Debug\net8.0\udpClient.AssemblyInfo.cs
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\udpClient\obj\Debug\net8.0\udpClient.csproj.CoreCompileInputs.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\udpClient\obj\Debug\net8.0\udpClient.sourcelink.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\udpClient\obj\Debug\net8.0\udpClient.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\udpClient\obj\Debug\net8.0\refint\udpClient.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\udpClient\obj\Debug\net8.0\udpClient.pdb
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\udpClient\obj\Debug\net8.0\udpClient.genruntimeconfig.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\udpClient\obj\Debug\net8.0\ref\udpClient.dll
