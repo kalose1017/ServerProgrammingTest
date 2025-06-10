@@ -1,0 +1,15 @@
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\Echo_Server_Class\bin\Debug\net8.0\Echo_Server_Class.exe
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\Echo_Server_Class\bin\Debug\net8.0\Echo_Server_Class.deps.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\Echo_Server_Class\bin\Debug\net8.0\Echo_Server_Class.runtimeconfig.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\Echo_Server_Class\bin\Debug\net8.0\Echo_Server_Class.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\Echo_Server_Class\bin\Debug\net8.0\Echo_Server_Class.pdb
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\Echo_Server_Class\obj\Debug\net8.0\Echo_Server_Class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\Echo_Server_Class\obj\Debug\net8.0\Echo_Server_Class.AssemblyInfoInputs.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\Echo_Server_Class\obj\Debug\net8.0\Echo_Server_Class.AssemblyInfo.cs
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\Echo_Server_Class\obj\Debug\net8.0\Echo_Server_Class.csproj.CoreCompileInputs.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\Echo_Server_Class\obj\Debug\net8.0\Echo_Server_Class.sourcelink.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\Echo_Server_Class\obj\Debug\net8.0\Echo_Server_Class.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\Echo_Server_Class\obj\Debug\net8.0\refint\Echo_Server_Class.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\Echo_Server_Class\obj\Debug\net8.0\Echo_Server_Class.pdb
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\Echo_Server_Class\obj\Debug\net8.0\Echo_Server_Class.genruntimeconfig.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\Echo_Server_Class\obj\Debug\net8.0\ref\Echo_Server_Class.dll

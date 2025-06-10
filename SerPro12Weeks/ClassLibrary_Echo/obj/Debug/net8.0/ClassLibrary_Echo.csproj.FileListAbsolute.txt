@@ -1,0 +1,12 @@
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\ClassLibrary_Echo\bin\Debug\net8.0\ClassLibrary_Echo.deps.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\ClassLibrary_Echo\bin\Debug\net8.0\ClassLibrary_Echo.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\ClassLibrary_Echo\bin\Debug\net8.0\ClassLibrary_Echo.pdb
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\ClassLibrary_Echo\obj\Debug\net8.0\ClassLibrary_Echo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\ClassLibrary_Echo\obj\Debug\net8.0\ClassLibrary_Echo.AssemblyInfoInputs.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\ClassLibrary_Echo\obj\Debug\net8.0\ClassLibrary_Echo.AssemblyInfo.cs
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\ClassLibrary_Echo\obj\Debug\net8.0\ClassLibrary_Echo.csproj.CoreCompileInputs.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\ClassLibrary_Echo\obj\Debug\net8.0\ClassLibrary_Echo.sourcelink.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\ClassLibrary_Echo\obj\Debug\net8.0\ClassLibrary_Echo.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\ClassLibrary_Echo\obj\Debug\net8.0\refint\ClassLibrary_Echo.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\ClassLibrary_Echo\obj\Debug\net8.0\ClassLibrary_Echo.pdb
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\ClassLibrary_Echo\obj\Debug\net8.0\ref\ClassLibrary_Echo.dll

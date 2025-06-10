@@ -1,0 +1,15 @@
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\bin\Debug\net8.0\SerPro12Weeks.exe
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\bin\Debug\net8.0\SerPro12Weeks.deps.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\bin\Debug\net8.0\SerPro12Weeks.runtimeconfig.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\bin\Debug\net8.0\SerPro12Weeks.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\bin\Debug\net8.0\SerPro12Weeks.pdb
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\obj\Debug\net8.0\SerPro12Weeks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\obj\Debug\net8.0\SerPro12Weeks.AssemblyInfoInputs.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\obj\Debug\net8.0\SerPro12Weeks.AssemblyInfo.cs
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\obj\Debug\net8.0\SerPro12Weeks.csproj.CoreCompileInputs.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\obj\Debug\net8.0\SerPro12Weeks.sourcelink.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\obj\Debug\net8.0\SerPro12Weeks.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\obj\Debug\net8.0\refint\SerPro12Weeks.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\obj\Debug\net8.0\SerPro12Weeks.pdb
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\obj\Debug\net8.0\SerPro12Weeks.genruntimeconfig.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro12Weeks\obj\Debug\net8.0\ref\SerPro12Weeks.dll
