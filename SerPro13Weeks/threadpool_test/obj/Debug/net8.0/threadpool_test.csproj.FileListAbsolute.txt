@@ -1,0 +1,15 @@
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro13Weeks\threadpool_test\bin\Debug\net8.0\threadpool_test.exe
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro13Weeks\threadpool_test\bin\Debug\net8.0\threadpool_test.deps.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro13Weeks\threadpool_test\bin\Debug\net8.0\threadpool_test.runtimeconfig.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro13Weeks\threadpool_test\bin\Debug\net8.0\threadpool_test.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro13Weeks\threadpool_test\bin\Debug\net8.0\threadpool_test.pdb
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro13Weeks\threadpool_test\obj\Debug\net8.0\threadpool_test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro13Weeks\threadpool_test\obj\Debug\net8.0\threadpool_test.AssemblyInfoInputs.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro13Weeks\threadpool_test\obj\Debug\net8.0\threadpool_test.AssemblyInfo.cs
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro13Weeks\threadpool_test\obj\Debug\net8.0\threadpool_test.csproj.CoreCompileInputs.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro13Weeks\threadpool_test\obj\Debug\net8.0\threadpool_test.sourcelink.json
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro13Weeks\threadpool_test\obj\Debug\net8.0\threadpool_test.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro13Weeks\threadpool_test\obj\Debug\net8.0\refint\threadpool_test.dll
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro13Weeks\threadpool_test\obj\Debug\net8.0\threadpool_test.pdb
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro13Weeks\threadpool_test\obj\Debug\net8.0\threadpool_test.genruntimeconfig.cache
+C:\Users\leeji\OneDrive\바탕 화면\ServerProgrammingTest\SerPro13Weeks\threadpool_test\obj\Debug\net8.0\ref\threadpool_test.dll
