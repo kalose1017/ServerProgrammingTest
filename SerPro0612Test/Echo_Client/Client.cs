@@ -9,7 +9,54 @@ namespace Echo_Client
     {
         static void Main(string[] args)
         {
-            Socket clientSock = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            var IPEndPoint = new IPEndPoint(IPAddress.Any, 9000);
+
+            Console.WriteLine("Server Connecting...");
+            socket.Connect(IPEndPoint);
+            Console.WriteLine($"Server Connected from : {socket.RemoteEndPoint}");
+
+            while(true)
+            {
+                string snedMessage = Console.ReadLine();
+                byte[] sendBuffer = Encoding.UTF8.GetBytes(snedMessage);
+                socket.Send(sendBuffer);
+                Console.WriteLine("Message Sending...");
+
+                byte[] recvBuffer = new byte[1024];
+                int received = socket.Receive(recvBuffer);
+                string recvMessage = Encoding.UTF8.GetString(recvBuffer, 0, received);
+                Console.WriteLine($"Received Echo : {recvMessage}");
+                
+                socket.Close();
+            }
+        }
+    }
+}
+
+/*Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            var serverEndPoint = new IPEndPoint(IPAddress.Loopback, 9000);
+
+            Console.WriteLine("Server Connecting...");
+            socket.Connect(serverEndPoint);
+            Console.WriteLine($"Server Connected from : {socket.RemoteEndPoint}");
+            
+            while(true)
+            {
+                string sendMessage = Console.ReadLine();
+                byte[] sendBuffer = Encoding.UTF8.GetBytes(sendMessage);
+                socket.Send(sendBuffer);
+                Console.WriteLine("Message Sending...");
+
+                byte[] recvBuffer = new byte[1024];
+                int received = socket.Receive(recvBuffer);
+                string recvMessage = Encoding.UTF8.GetString(recvBuffer, 0, received);
+                Console.WriteLine($"Received Echo : {recvMessage}");
+                
+                socket.Close();
+            }*/
+
+/*Socket clientSock = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             var serverEndPoint = new IPEndPoint(IPAddress.Loopback, 9000);
 
             Console.WriteLine("Server Connecting ... ");
@@ -26,7 +73,4 @@ namespace Echo_Client
             string recvMessage = Encoding.UTF8.GetString(recvBuffer, 0, received);
             Console.WriteLine($"Received Echo : {recvMessage}");
 
-            clientSock.Close();
-        }
-    }
-}
+            clientSock.Close();*/
