@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "05_ChatClient/1.0.0": {
+        "dependencies": {
+          "ClassLibrary_Echo": "1.0.0"
+        },
+        "runtime": {
+          "05_ChatClient.dll": {}
+        }
+      },
+      "ClassLibrary_Echo/1.0.0": {
+        "runtime": {
+          "ClassLibrary_Echo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "05_ChatClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibrary_Echo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

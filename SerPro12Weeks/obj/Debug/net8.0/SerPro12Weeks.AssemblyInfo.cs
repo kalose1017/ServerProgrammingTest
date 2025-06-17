@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SerPro12Weeks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f93ffcf38f4ff0b2c1b279d987a9eaab3b0ac7ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db28e88001549e863e2e572a49ed2f4e4e0aacfe")]
 [assembly: System.Reflection.AssemblyProductAttribute("SerPro12Weeks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SerPro12Weeks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

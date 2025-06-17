@@ -57,7 +57,8 @@ namespace SerPro13Weeks
 
         private static string GenerateRandomString(int count)
         {
-            const string ch = "ABCDEFGHIJKLMNOPQRSTUVWZYZ";
+            return count;
+            //const string ch = "ABCDEFGHIJKLMNOPQRSTUVWZYZ";
         }
 
         static void MyThread2(object arg)

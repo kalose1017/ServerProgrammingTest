@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "ClassLibrary_Echo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ClassLibrary_Echo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary_Echo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClassLibrary_Echo/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary_Echo/ClassLibrary_Echo.csproj",
+      "msbuildProject": "../ClassLibrary_Echo/ClassLibrary_Echo.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "ClassLibrary_Echo >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\leeji\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\leeji\\OneDrive\\바탕 화면\\ServerProgrammingTest\\SerPro12Weeks\\05_ChatClient\\05_ChatClient.csproj",
+      "projectName": "05_ChatClient",
+      "projectPath": "C:\\Users\\leeji\\OneDrive\\바탕 화면\\ServerProgrammingTest\\SerPro12Weeks\\05_ChatClient\\05_ChatClient.csproj",
+      "packagesPath": "C:\\Users\\leeji\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\leeji\\OneDrive\\바탕 화면\\ServerProgrammingTest\\SerPro12Weeks\\05_ChatClient\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\leeji\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\leeji\\OneDrive\\바탕 화면\\ServerProgrammingTest\\SerPro12Weeks\\ClassLibrary_Echo\\ClassLibrary_Echo.csproj": {
+              "projectPath": "C:\\Users\\leeji\\OneDrive\\바탕 화면\\ServerProgrammingTest\\SerPro12Weeks\\ClassLibrary_Echo\\ClassLibrary_Echo.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
